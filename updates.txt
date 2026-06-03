@@ -1,0 +1,2 @@
+- Need to work on sidebar and main documentation
+- Homepage kinda complete, needs rework.
