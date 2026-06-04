@@ -4,7 +4,7 @@
 
 ---
 
-YggUtils is a lightweight Java server wrapper that injects [authlib-injector](https://github.com/yushijinhun/authlib-injector) into any Minecraft server's JVM at launch — enabling custom Yggdrasil authentication on hosting environments where you cannot set JVM arguments directly.
+YggUtils is a lightweight Java server wrapper that injects [authlib-injector](https://github.com/yushijinhun/authlib-injector) into any Minecraft server's JVM at launch, enabling custom Yggdrasil authentication on hosting environments where you cannot set JVM arguments directly.
 
 ## Documentation
 
