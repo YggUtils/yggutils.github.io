@@ -9,15 +9,32 @@ export default defineConfig({
     logo: { src: '/yggutils.svg', width: 24, height: 24 },
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Documentation', link: '/markdown-examples' }
+      { text: 'Documentation', link: '/what-is-yggutils' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Introduction',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'What is YggUtils?', link: '/what-is-yggutils' },
+          { text: 'Getting Started', link: '/getting-started' }
+        ]
+      },
+      {
+        text: 'Guide',
+        items: [
+          { text: 'How Launching Works', link: '/how-launching-works' },
+          { text: 'Authlib Injector', link: '/authlib-injector' },
+          { text: 'Console Forwarding', link: '/console-forwarding' },
+          { text: 'Auto-Restart', link: '/auto-restart' }
+        ]
+      },
+      {
+        text: 'Reference',
+        items: [
+          { text: 'Configuration', link: '/configuration' },
+          { text: 'File Structure', link: '/file-structure' },
+          { text: 'Exit Codes', link: '/exit-codes' }
         ]
       }
     ],
