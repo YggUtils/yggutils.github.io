@@ -63,6 +63,6 @@ YggUtils will silently launch your server with authlib-injector attached. All se
 
 ## Next Steps
 
-- Learn about [configuration options](../reference/configuration.md)
-- Understand the [launch process](../guide/how-launching-works.md)
-- See what happens on [crashes and restarts](../guide/auto-restart.md)
+- Learn about [configuration options](/configuration)
+- Understand the [launch process](/how-launching-works)
+- See what happens on [crashes and restarts](/auto-restart)
