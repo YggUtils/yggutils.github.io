@@ -2,6 +2,9 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
+  ],
   title: "YggUtils",
   description: "An advanced authentication proxy tool for your Minecraft server, taking advantage of authlibinjector.",
   themeConfig: {
