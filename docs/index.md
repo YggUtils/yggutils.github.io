@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started!
-      link: /what-is-yggutils
+      link: /documentation/what-is-yggutils
     - theme: alt
       text: Github
       link: https://github.com/YggUtils/YggUtils

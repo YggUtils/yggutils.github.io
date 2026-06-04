@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  cleanUrls: true,
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
@@ -12,32 +13,32 @@ export default defineConfig({
     logo: { src: '/yggutils.svg', width: 24, height: 24 },
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Documentation', link: '/what-is-yggutils' }
+      { text: 'Documentation', link: '/documentation/what-is-yggutils', activeMatch: '^/documentation/' }
     ],
 
     sidebar: [
       {
         text: 'Introduction',
         items: [
-          { text: 'What is YggUtils?', link: '/what-is-yggutils' },
-          { text: 'Getting Started', link: '/getting-started' }
+          { text: 'What is YggUtils?', link: '/documentation/what-is-yggutils' },
+          { text: 'Getting Started', link: '/documentation/getting-started' }
         ]
       },
       {
         text: 'Guide',
         items: [
-          { text: 'How Launching Works', link: '/how-launching-works' },
-          { text: 'Authlib Injector', link: '/authlib-injector' },
-          { text: 'Console Forwarding', link: '/console-forwarding' },
-          { text: 'Auto-Restart', link: '/auto-restart' }
+          { text: 'How Launching Works', link: '/documentation/how-launching-works' },
+          { text: 'Authlib Injector', link: '/documentation/authlib-injector' },
+          { text: 'Console Forwarding', link: '/documentation/console-forwarding' },
+          { text: 'Auto-Restart', link: '/documentation/auto-restart' }
         ]
       },
       {
         text: 'Reference',
         items: [
-          { text: 'Configuration', link: '/configuration' },
-          { text: 'File Structure', link: '/file-structure' },
-          { text: 'Exit Codes', link: '/exit-codes' }
+          { text: 'Configuration', link: '/documentation/configuration' },
+          { text: 'File Structure', link: '/documentation/file-structure' },
+          { text: 'Exit Codes', link: '/documentation/exit-codes' }
         ]
       }
     ],
