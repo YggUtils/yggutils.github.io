@@ -3,6 +3,9 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   cleanUrls: true,
+  sitemap: {
+    hostname: 'https://yggutils.github.io'
+  },
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],

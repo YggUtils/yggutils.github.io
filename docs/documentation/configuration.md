@@ -7,8 +7,8 @@ YggUtils is configured through a single YAML file: `YggUtils.yml`, located in th
 If `YggUtils.yml` does not exist, YggUtils will create it automatically on first run and exit. The generated file contains empty placeholder values:
 
 ```yaml
-authserver: ''
-serverfile: ''
+authserver: https://auth.example.com
+serverfile: example.jar
 ```
 
 ## Fields
@@ -21,7 +21,7 @@ serverfile: ''
 The root URL of your Yggdrasil-compatible authentication server. This value is passed directly to authlib-injector as the agent argument.
 
 ```yaml
-authserver: https://auth.example.com
+authserver: https://littleskin.cn
 ```
 
 authlib-injector will query this URL for API metadata and use it to redirect all of Minecraft's authentication traffic.
@@ -42,8 +42,8 @@ YggUtils checks that this file exists before starting. If it does not exist, Ygg
 ## Example Config
 
 ```yaml
-authserver: https://auth.example.com
-serverfile: fabric-server-launch.jar
+authserver: https://littleskin.cn
+serverfile: server.jar
 ```
 
 ## Validation Rules

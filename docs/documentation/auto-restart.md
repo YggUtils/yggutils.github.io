@@ -30,8 +30,6 @@ If the server crashes (OutOfMemoryError, plugin exception that kills the JVM, et
 3. Re-run the same launch command
 4. Resume piping output and forwarding console input
 
-The server log (`YggUtils-server.log`) is appended across restarts, so you'll have a continuous record of all output.
-
 ## Killing YggUtils Directly
 
 If you kill the YggUtils process (e.g. `Ctrl+C`, `SIGTERM`, or a hosting panel "stop" that targets the wrapper), the child server process may continue running as an orphan depending on your OS and how the signal is handled.
