@@ -15,7 +15,12 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     search: {
-      provider: 'local'
+      provider: 'algolia',
+      options: {
+        appId: 'HU5ORXBUGO',
+        apiKey: 'df71530235fca5f30c77e752786afc0f',
+        indexName: 'yggutils_github_io_hu5orxbugo_pages'
+      }
     },
     logo: { src: '/yggutils.svg', width: 24, height: 24 },
     nav: [
