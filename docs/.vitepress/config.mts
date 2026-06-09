@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+    
   cleanUrls: true,
   sitemap: {
     hostname: 'https://yggutils.github.io'
@@ -13,6 +14,9 @@ export default defineConfig({
   description: "An advanced authentication proxy tool for your Minecraft server, taking advantage of authlibinjector.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: 'local'
+    },
     logo: { src: '/yggutils.svg', width: 24, height: 24 },
     nav: [
       { text: 'Home', link: '/' },
@@ -45,6 +49,11 @@ export default defineConfig({
         ]
       }
     ],
+
+    footer:{
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2026 Jukixyo'
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/YggUtils/YggUtils' },
