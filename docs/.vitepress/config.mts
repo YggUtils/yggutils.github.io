@@ -16,7 +16,12 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: { src: '/yggutils.svg', width: 24, height: 24 },
     search: {
-      provider: 'local'
+      provider: 'algolia',
+      options: {
+        appId: 'N0P3PMVJAC',
+        apiKey: '2697e7f688bd036896d10ecd7709be55',
+        indexName: 'YggUtils'
+      }
     },
     nav: [
       { text: 'Home', link: '/' },
