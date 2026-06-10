@@ -14,10 +14,10 @@ export default defineConfig({
   description: "An advanced authentication proxy tool for your Minecraft server, taking advantage of authlibinjector.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: { src: '/yggutils.svg', width: 24, height: 24 },
     search: {
       provider: 'local'
     },
-    logo: { src: '/yggutils.svg', width: 24, height: 24 },
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Documentation', link: '/documentation/what-is-yggutils', activeMatch: '^/documentation/' }
