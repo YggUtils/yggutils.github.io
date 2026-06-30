@@ -1,5 +1,0 @@
-# Algolia-Crawler-Verif: EFF78A840508EFC7
-User-agent: *
-Allow: /
-
-Sitemap: https://yggutils.github.io/sitemap.xml
